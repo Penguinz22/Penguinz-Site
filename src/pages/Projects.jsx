@@ -19,7 +19,7 @@ const Projects = () => {
         description="
         Quite a simple website designed as a representation of who I am and what I have made. 
         Though not a frontend web developer, it is still interesting and fun to design something such as this."
-        github="TBD"
+        github="https://github.com/Penguinz22/Penguinz-Site"
       />
       {/*<ProjectCard name="TBD" mini="TBD" description="TBD" github="TBD" />
       <ProjectCard name="TBD" mini="TBD" description="TBD" github="TBD" />
