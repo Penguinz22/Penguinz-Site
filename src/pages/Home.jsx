@@ -14,7 +14,7 @@ const Home = () => {
       style={{ minHeight: "80vh" }}
     >
       <h1 className="font-mono text-6xl font-medium text-white">Penguinz</h1>
-      <h2 className="font-mono text-3xl font-light text-gray-200 leading-none">
+      <h2 className="font-mono text-3xl font-light text-gray-200 leading-none text-center">
         Just some developer
       </h2>
       <div

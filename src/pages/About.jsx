@@ -12,7 +12,7 @@ const About = () => {
       <p className="font-sans text-2xl text-gray-100 w-2/3 text-justify">
         Hello I am Penguinz, also known as Penguinz22. I am a Java developer
         interested in the field of game development. I also have experience with
-        Minecraft server plugin development using Spigot and then HTML, CSS,
+        Minecraft server plugin development using Spigot along with HTML, CSS,
         Javascript, and Node. Currently I am in the process of learning C++ and
         further indepth OpenGL and other low level graphics APIs such as Vulkan.
       </p>

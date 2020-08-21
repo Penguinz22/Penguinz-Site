@@ -7,7 +7,7 @@ const ProjectCard = (props) => {
       <h4 className="text-lg mb-1">{props.mini}</h4>
       <p className="mb-1 text-sm">{props.description}</p>
       <div className="mt-auto flex">
-        <a href={props.github} target="_blank">
+        <a href={props.github} target="_blank" rel="noopener noreferrer">
           <i className="fa fa-github text-3xl" />
         </a>
       </div>

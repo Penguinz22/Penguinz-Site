@@ -9,7 +9,6 @@ import About from "./pages/About";
 function App() {
   return (
     <>
-      <Navbar />
       <Particles
         id="tsparticles"
         width="100%"
@@ -17,7 +16,7 @@ function App() {
         options={{
           background: {
             color: {
-              value: "#525054",
+              value: "#38383b",
             },
           },
           fpsLimit: 60,
@@ -92,8 +91,9 @@ function App() {
           },
           detectRetina: true,
         }}
-        className="fixed -z-10 w-full h-full"
+        className="fixed -z-10 w-screen h-full"
       />
+      <Navbar />
       <Switch>
         <Route path="/about" component={About} />
         <Route path="/projects" component={Projects} />
