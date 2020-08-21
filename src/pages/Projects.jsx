@@ -3,7 +3,7 @@ import ProjectCard from "../components/ProjectCard";
 
 const Projects = () => {
   return (
-    <div className="pt-16 px-16 md:px-20 lg:px-64 grid gap-5 grid-cols-1 md:grid-cols-2 lg:grid-cols-2">
+    <div className="pt-16 pb-4 px-16 md:px-20 lg:px-64 grid gap-5 grid-cols-1 md:grid-cols-2 lg:grid-cols-2">
       <ProjectCard
         name="Sylk"
         mini="A 2d game engine developed in Java"

@@ -12,7 +12,7 @@ function App() {
       <Particles
         id="tsparticles"
         width="100%"
-        height="100%"
+        height="130vh"
         options={{
           background: {
             color: {
@@ -91,7 +91,7 @@ function App() {
           },
           detectRetina: true,
         }}
-        className="fixed -z-10 w-screen h-full"
+        className="fixed -z-10 w-screen h-full block overflow-visible"
       />
       <Navbar />
       <Switch>
